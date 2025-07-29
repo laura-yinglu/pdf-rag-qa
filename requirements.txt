@@ -6,3 +6,5 @@ pypdf
 tiktoken
 python-dotenv
 notebook
+sentence-transformers
+transformers
