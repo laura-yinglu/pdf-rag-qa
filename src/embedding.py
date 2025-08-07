@@ -5,7 +5,7 @@ from langchain.embeddings import HuggingFaceEmbeddings
 
 def get_embedding_model():
     return HuggingFaceEmbeddings(
-        model_name="sentence-transformers/all-MiniLM-L6-v2"
+        model_name="sentence-transformers/multi-qa-MiniLM-L6-cos-v1"
     )
 """"
 (1) Embed text as a vector: Embeddings transform text into a numerical vector representation.
